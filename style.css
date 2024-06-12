@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/564x/fe/37/5d/fe375ddec6539cba6ab62132fde84b80.jpg'); /* Ganti 'background-image.jpg' dengan path gambar Anda */
+    background-color: #CCFFCC;
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh area latar belakang */
+    background-position: center; /* Pusatkan gambar di latar belakang */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Gunakan rgba() untuk memberi sedikit transparansi */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    color: #333; /* Warna teks yang lebih mudah terbaca di atas latar belakang gambar */
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Memberikan sedikit transparansi pada input */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #91af88;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #91af88;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}
